@@ -46,7 +46,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mdpi
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Add LDPI assets, in addition to MDPI
-    PRODUCT_LOCALES += ldpi
+PRODUCT_LOCALES += ldpi mdpi
 
 # Kernel modules
 PRODUCT_COPY_FILES += \
